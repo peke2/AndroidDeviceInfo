@@ -17,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
     void identifyDevice()
     {
+        //  端末情報の確認
         Log.d("device_info", "MANUFACTURER["+ Build.MANUFACTURER + "] MODEL["+Build.MODEL+"]");
+        Log.d("device_info", "VERSION SDK_INT["+Build.VERSION.SDK_INT+"]");
     }
 
 }
